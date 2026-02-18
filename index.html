@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Визитка — Sayan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="card" aria-label="Визитка">
+      <div class="badge">Open to projects</div>
+
+      <h1 class="name">Sayan</h1>
+      <p class="role">Сетевой безопасность · Казахстан</p>
+
+      <p class="about">
+        Делаю безопасные и устойчивые сети: сегментация, VLAN, маршрутизация,
+        базовая защита, аудит конфигураций и документация.
+      </p>
+
+      <div class="actions">
+        <a class="btn primary" href="#contact">Связаться</a>
+        <a class="btn" href="https://github.com/USERNAME" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+
+      <ul class="links" id="contact">
+        <li><span>📧</span> <a href="mailto:you@example.com">you@example.com</a></li>
+        <li><span>💬</span> <a href="https://t.me/your_tg" target="_blank" rel="noreferrer">@your_tg</a></li>
+        <li><span>🔗</span> <a href="https://www.linkedin.com/in/your_profile" target="_blank" rel="noreferrer">LinkedIn</a></li>
+      </ul>
+
+      <footer class="foot">
+        <span>© <span id="y"></span> Sayan</span>
+        <span class="dot">•</span>
+        <span>One-screen визитка</span>
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
